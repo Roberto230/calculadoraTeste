@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="bodyCalc" nam="bodyCalc">
+        <div class="janelaRes" id="janelaResult" name="janelaRes"></div> 
+        <div class="operadores">
+            <input id = "value" type="submit" value="+" onclick="botao(value)">
+            <input id = "value" type="submit" value="-" onclick="botao(value)">
+            <input id = "value" type="submit" value="*" onclick="botao(value)">
+            <input id = "value" type="submit" value="/" onclick="botao(value)">
+        </div>
+        <div class="container">
+            <div class="numbers">       
+                <div>
+                    <input id = "value" type="submit" value="7" onclick="botao(value)">
+                    <input id = "value" type="submit" value="8" onclick="botao(value)">
+                    <input id = "value" type="submit" value="9" onclick="botao(value)">
+                </div>
+                <div>
+                    <input id = "value" type="submit" value="4" onclick="botao(value)">
+                    <input id = "value" type="submit" value="5" onclick="botao(value)">
+                    <input id = "value" type="submit" value="6" onclick="botao(value)">
+                </div>
+                <div>
+                    <input id = "value" type="submit" value="1" onclick="botao(value)">
+                    <input id = "value" type="submit" value="2" onclick="botao(value)">
+                    <input id = "value" type="submit" value="3" onclick="botao(value)">
+                </div>
+                <div>
+                    <input id = "value" type="submit" value="0" onclick="botao(value)">
+                    <input id = "value" type="submit" value="." onclick="botao(value)">
+                    <input id = "clear" type="submit" value="C" onclick="clean()">
+                </div>
+            </div>
+            <div>
+                <input id="result" type="submit" value="=" class="igual" onclick="calcular()">
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="script/script.js"></script>
+</html>

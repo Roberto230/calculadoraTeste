@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+.bodyCalc{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.janelaRes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 50px;
+    width: 270px;
+}
+.operadores input{
+    background-color: rgb(167, 161, 161);
+    border: none;
+    margin: 4.2px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container div .igual{
+    background-color: rgba(50, 50, 192, 0.774);
+    color: white;
+    border: none;
+    height: 229px;
+}
